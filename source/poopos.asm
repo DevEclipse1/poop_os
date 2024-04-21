@@ -46,7 +46,7 @@ main:
 .halt:
     jmp .halt
 
-message: db "Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop ", ENDL, 0
+message: db "Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop Poop", ENDL, 0
 
 times 510-($-$$) db 0
 dw 0AA55h
